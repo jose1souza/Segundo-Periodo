@@ -1,25 +1,12 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35312.102
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercício-1005", "exercício-1005.csproj", "{862187ED-715F-4F07-8F55-FA4E9CD800BB}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{862187ED-715F-4F07-8F55-FA4E9CD800BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{862187ED-715F-4F07-8F55-FA4E9CD800BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{862187ED-715F-4F07-8F55-FA4E9CD800BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{862187ED-715F-4F07-8F55-FA4E9CD800BB}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DFC7BCE8-5471-492F-93B4-6F38BE05717A}
-	EndGlobalSection
-EndGlobal
+using System;
+class Program
+{
+    static void Main()
+    {
+        double A, B, X;
+        A = double.Parse(Console.ReadLine());
+        B = double.Parse(Console.ReadLine());
+        X = (A * 3.5 + B * 7.5) / 11;
+        Console.WriteLine($"MEDIA = {X:F5}");
+    }
+}
