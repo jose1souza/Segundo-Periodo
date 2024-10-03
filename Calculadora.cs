@@ -1,52 +1,41 @@
-﻿using System;
-using biblioteca;
-class Program 
+﻿using biblioteca;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace biblioteca
 {
-    static int menu()
+    public class Calculadora
     {
-        Console.WriteLine("/t*** Calculadora C# ***\n");
-        Console.WriteLine("1-Somar");
-        Console.WriteLine("2-Subtrair");
-        Console.WriteLine("3-Dividir");
-        Console.WriteLine("4-Multiplicar");
-        Console.WriteLine("Digite uma opção: ");
-        int opcao = int.Parse(Console.ReadLine());
-        return opcao;
-    }
-    static void Main()
-    {
-        do
+        public static double soma(double n1, double n2)
         {
-            int opcao = menu ();
-            Console.WriteLine("Digite dois valores: ");
-            double num1 = double.Parse(Console.ReadLine());
-            double num2 = double.Parse(Console.ReadLine());
-            switch (opcao)
+            return n1 + n2;
+            // retornando a soma de dois números
+        } // fim da função soma
+        public static double sub(double n1, double n2)
+        {
+            return n1 - n2;
+            // retornando a subtração de dois números
+        } // fim da função subtrair
+        public static double div(double n1, double n2)
+        {
+            if (n2 == 0)
             {
-                case 1: // soma
-                    double res = Calculadora.soma(num1, num2);
-                    Console.WriteLine($"Resultado:{res:F2}");
-                    break;
-                case 2: // subtrair
-                     res = Calculadora.sub(num1, num2);
-                    Console.WriteLine($"Resultado:{res:F2}");
-                    break;
-                case 3: // dividir
-                    res = Calculadora.div(num1, num2);
-                    Console.WriteLine($"Resultado:{res:F2}");
-                    break;
-                case 4: // multiplicar
-                    res = Calculadora.multi(num1, num2);
-                    Console.WriteLine($"Resultado: {res:F2}");
-                    break;
-                default:
-                    Console.WriteLine("Opção Inválida");
-                    break;
-            }// fim switch
-            Console.ReadKey();
-            Console.Clear();
-        } while (true); // fim do do while
-        
+                return 0;
+            }
+            else
+            {
+                return n1 / n2;
+                // retornando a divisão de dois números
+            } // fim da função dividir
+        }
+        public static double multi(double n1, double n2)
+        {
+            return n1 * n2;
+            // retornando a multiplicação de dois números
+        } // fim da função multiplicar
 
     }
 }
