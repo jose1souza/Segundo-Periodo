@@ -1,0 +1,14 @@
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\obj\Debug\net8.0\revisao_prova.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\obj\Debug\net8.0\revisao_prova.AssemblyInfoInputs.cache
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\obj\Debug\net8.0\revisao_prova.AssemblyInfo.cs
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\obj\Debug\net8.0\revisao_prova.csproj.CoreCompileInputs.cache
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\bin\Debug\net8.0\revisao_prova.exe
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\bin\Debug\net8.0\revisao_prova.deps.json
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\bin\Debug\net8.0\revisao_prova.runtimeconfig.json
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\bin\Debug\net8.0\revisao_prova.dll
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\bin\Debug\net8.0\revisao_prova.pdb
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\obj\Debug\net8.0\revisao_prova.dll
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\obj\Debug\net8.0\refint\revisao_prova.dll
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\obj\Debug\net8.0\revisao_prova.pdb
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\obj\Debug\net8.0\revisao_prova.genruntimeconfig.cache
+C:\Users\14679274654\source\repos\revisao_prova\revisao_prova\obj\Debug\net8.0\ref\revisao_prova.dll
