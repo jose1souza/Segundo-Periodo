@@ -60,7 +60,7 @@ using BibliotecaMatriz;
         }
     }
 
-    public static void Main()
+    static void Main()
         {
             Console.WriteLine("Quantas regiões existem: ");
             int regi = int.Parse(Console.ReadLine());
