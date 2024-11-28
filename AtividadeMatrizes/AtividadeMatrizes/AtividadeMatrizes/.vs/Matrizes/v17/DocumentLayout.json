@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zexni\\OneDrive\\Documentos\\Nova pasta\\Segundo-Periodo\\AtividadeMatrizes\\AtividadeMatrizes\\AtividadeMatrizes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{639EE799-D4D4-4171-8F0F-CF5E1B924A46}|Matrizes.csproj|c:\\users\\zexni\\onedrive\\documentos\\nova pasta\\segundo-periodo\\atividadematrizes\\atividadematrizes\\atividadematrizes\\matrizes.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{639EE799-D4D4-4171-8F0F-CF5E1B924A46}|Matrizes.csproj|solutionrelative:matrizes.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Matrizes",
+              "DocumentMoniker": "C:\\Users\\zexni\\OneDrive\\Documentos\\Nova pasta\\Segundo-Periodo\\AtividadeMatrizes\\AtividadeMatrizes\\AtividadeMatrizes\\Matrizes.csproj",
+              "RelativeDocumentMoniker": "Matrizes.csproj",
+              "ToolTip": "C:\\Users\\zexni\\OneDrive\\Documentos\\Nova pasta\\Segundo-Periodo\\AtividadeMatrizes\\AtividadeMatrizes\\AtividadeMatrizes\\Matrizes.csproj",
+              "RelativeToolTip": "Matrizes.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T17:50:09.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

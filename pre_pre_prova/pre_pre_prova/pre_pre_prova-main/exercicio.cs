@@ -1,5 +1,4 @@
 ﻿using System;
-using Biblioteca_Matriz;
 using Arrays;
 
 class exercicio

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("prepre_prova")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33945e4401893f8d3ef9fcfd36c2ff3a5fb8760f")]
 [assembly: System.Reflection.AssemblyProductAttribute("prepre_prova")]
 [assembly: System.Reflection.AssemblyTitleAttribute("prepre_prova")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
