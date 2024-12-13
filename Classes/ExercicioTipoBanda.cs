@@ -83,6 +83,36 @@ public class ExercicioTipoBanda
                 Console.WriteLine("------------------------------------");
             }
         }
+    }static void buscaRanking(List<TipoBanda> listadeBandas, int rankingbusca) 
+    {
+        for (int i = 0; i < listadeBandas.Count; i++)
+        {
+            if (listadeBandas[i].ranking.Equals(rankingbusca))
+            {
+                // mostrando os dados da Banda que o usúario escolheu
+                Console.WriteLine($"*** Banda {i + 1} ***");
+                Console.WriteLine($"Nome: {listadeBandas[i].nome}");
+                Console.WriteLine($"Gênero: {listadeBandas[i].genero}");
+                Console.WriteLine($"Integrantes: {listadeBandas[i].integrantes}");
+                Console.WriteLine($"Ranking: {listadeBandas[i].ranking}");
+                Console.WriteLine("------------------------------------");
+            }
+        }
+    }static void buscanumero(List<TipoBanda> listadeBandas, int numero) 
+    {
+        for (int i = 0; i < listadeBandas.Count; i++)
+        {
+            if (listadeBandas[i].genero.Equals(numero))
+            {
+                // mostrando os dados da Banda que o usúario escolheu
+                Console.WriteLine($"*** Banda {i + 1} ***");
+                Console.WriteLine($"Nome: {listadeBandas[i].nome}");
+                Console.WriteLine($"Gênero: {listadeBandas[i].genero}");
+                Console.WriteLine($"Integrantes: {listadeBandas[i].integrantes}");
+                Console.WriteLine($"Ranking: {listadeBandas[i].ranking}");
+                Console.WriteLine("------------------------------------");
+            }
+        }
     }
 
     static int menu()
@@ -130,6 +160,16 @@ public class ExercicioTipoBanda
                     Console.WriteLine("Genero que você deseja buscar: ");
                     Genero = Console.ReadLine();
                     buscaGenero(listadeBandas, Genero);
+                    break;
+                case 5:
+                    Console.WriteLine("Número de integrantes que você deseja buscar: ");
+                    numintegrantes = int.Parse(Console.ReadLine());
+                    buscanumero(listadeBandas, numintegrantes);
+                    break;
+                case 6:
+                    Console.WriteLine("Ranking que você deseja buscar: ");
+                    ranking = int.Parse(Console.ReadLine());
+                    buscaRanking(listadeBandas, ranking);
                     break;
                 case 0:
                     Console.WriteLine("Saindo...");
