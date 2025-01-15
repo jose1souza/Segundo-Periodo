@@ -185,7 +185,8 @@ public class Exercicio_3
             {
                 case 1:
                     AddEle(listaDeEle);
-                        break;
+                    SalvaDados(listaDeEle, caminhoDoArquivo);
+                    break;
                 case 2:
                     MostraEle(listaDeEle);
                         break;
